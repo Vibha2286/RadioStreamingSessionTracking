@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63A0BCF2C9C4BA90079BF57 /* RadioSessionTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BCE2C9C4BA90079BF57 /* RadioSessionTrackingApp.swift */; };
+		F63A0BD12C9C4BA90079BF57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BD02C9C4BA90079BF57 /* ContentView.swift */; };
+		F63A0BD32C9C4BAA0079BF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63A0BD22C9C4BAA0079BF57 /* Assets.xcassets */; };
+		F63A0BD72C9C4BAA0079BF57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63A0BD62C9C4BAA0079BF57 /* Preview Assets.xcassets */; };
+		F63A0BE12C9C4BAA0079BF57 /* RadioSessionTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BE02C9C4BAA0079BF57 /* RadioSessionTrackingTests.swift */; };
+		F63A0BEB2C9C4BAA0079BF57 /* RadioSessionTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BEA2C9C4BAA0079BF57 /* RadioSessionTrackingUITests.swift */; };
+		F63A0BED2C9C4BAA0079BF57 /* RadioSessionTrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BEC2C9C4BAA0079BF57 /* RadioSessionTrackingUITestsLaunchTests.swift */; };
+		F63A0BFB2C9C4DC50079BF57 /* RadioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BFA2C9C4DC50079BF57 /* RadioSession.swift */; };
+		F63A0BFE2C9C4E120079BF57 /* RadioStreamingSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0BFD2C9C4E120079BF57 /* RadioStreamingSessionView.swift */; };
+		F63A0C012C9C4E4C0079BF57 /* RadioStreamingSessionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C002C9C4E4C0079BF57 /* RadioStreamingSessionInteractor.swift */; };
+		F63A0C042C9C4E890079BF57 /* RadioStreamingSessionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C032C9C4E890079BF57 /* RadioStreamingSessionPresenter.swift */; };
+		F63A0C072C9C4EBC0079BF57 /* RadioStreamingSessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C062C9C4EBC0079BF57 /* RadioStreamingSessionRouter.swift */; };
+		F63A0C0A2C9C4F070079BF57 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C092C9C4F070079BF57 /* TimelineView.swift */; };
+		F63A0C0D2C9C4F370079BF57 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C0C2C9C4F370079BF57 /* AddSessionView.swift */; };
+		F63A0C112C9D7F320079BF57 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C102C9D7F320079BF57 /* DateExtension.swift */; };
+		F63A0C142C9D86BA0079BF57 /* TimelineViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C132C9D86BA0079BF57 /* TimelineViewTests.swift */; };
+		F63A0C162C9D87480079BF57 /* RadioStreamingSessionPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C152C9D87480079BF57 /* RadioStreamingSessionPresenterTests.swift */; };
+		F63A0C1A2C9D87C90079BF57 /* RadioStreamingSessionInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C192C9D87C90079BF57 /* RadioStreamingSessionInteractorTests.swift */; };
+		F63A0C1C2C9D88040079BF57 /* RadioStreamingSessionRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0C1B2C9D88040079BF57 /* RadioStreamingSessionRouterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63A0BDD2C9C4BAA0079BF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63A0BC32C9C4BA90079BF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63A0BCA2C9C4BA90079BF57;
+			remoteInfo = RadioSessionTracking;
+		};
+		F63A0BE72C9C4BAA0079BF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63A0BC32C9C4BA90079BF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63A0BCA2C9C4BA90079BF57;
+			remoteInfo = RadioSessionTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F63A0BCB2C9C4BA90079BF57 /* RadioSessionTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioSessionTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63A0BCE2C9C4BA90079BF57 /* RadioSessionTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSessionTrackingApp.swift; sourceTree = "<group>"; };
+		F63A0BD02C9C4BA90079BF57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F63A0BD22C9C4BAA0079BF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63A0BD42C9C4BAA0079BF57 /* RadioSessionTracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioSessionTracking.entitlements; sourceTree = "<group>"; };
+		F63A0BD62C9C4BAA0079BF57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F63A0BDC2C9C4BAA0079BF57 /* RadioSessionTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioSessionTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63A0BE02C9C4BAA0079BF57 /* RadioSessionTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSessionTrackingTests.swift; sourceTree = "<group>"; };
+		F63A0BE62C9C4BAA0079BF57 /* RadioSessionTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioSessionTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63A0BEA2C9C4BAA0079BF57 /* RadioSessionTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSessionTrackingUITests.swift; sourceTree = "<group>"; };
+		F63A0BEC2C9C4BAA0079BF57 /* RadioSessionTrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSessionTrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F63A0BFA2C9C4DC50079BF57 /* RadioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSession.swift; sourceTree = "<group>"; };
+		F63A0BFD2C9C4E120079BF57 /* RadioStreamingSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionView.swift; sourceTree = "<group>"; };
+		F63A0C002C9C4E4C0079BF57 /* RadioStreamingSessionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionInteractor.swift; sourceTree = "<group>"; };
+		F63A0C032C9C4E890079BF57 /* RadioStreamingSessionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionPresenter.swift; sourceTree = "<group>"; };
+		F63A0C062C9C4EBC0079BF57 /* RadioStreamingSessionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionRouter.swift; sourceTree = "<group>"; };
+		F63A0C092C9C4F070079BF57 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		F63A0C0C2C9C4F370079BF57 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		F63A0C102C9D7F320079BF57 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		F63A0C132C9D86BA0079BF57 /* TimelineViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewTests.swift; sourceTree = "<group>"; };
+		F63A0C152C9D87480079BF57 /* RadioStreamingSessionPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionPresenterTests.swift; sourceTree = "<group>"; };
+		F63A0C192C9D87C90079BF57 /* RadioStreamingSessionInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionInteractorTests.swift; sourceTree = "<group>"; };
+		F63A0C1B2C9D88040079BF57 /* RadioStreamingSessionRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingSessionRouterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63A0BC82C9C4BA90079BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BD92C9C4BAA0079BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BE32C9C4BAA0079BF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63A0BC22C9C4BA90079BF57 = {
+			isa = PBXGroup;
+			children = (
+				F63A0BCD2C9C4BA90079BF57 /* RadioSessionTracking */,
+				F63A0BDF2C9C4BAA0079BF57 /* RadioSessionTrackingTests */,
+				F63A0BE92C9C4BAA0079BF57 /* RadioSessionTrackingUITests */,
+				F63A0BCC2C9C4BA90079BF57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63A0BCC2C9C4BA90079BF57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0BCB2C9C4BA90079BF57 /* RadioSessionTracking.app */,
+				F63A0BDC2C9C4BAA0079BF57 /* RadioSessionTrackingTests.xctest */,
+				F63A0BE62C9C4BAA0079BF57 /* RadioSessionTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63A0BCD2C9C4BA90079BF57 /* RadioSessionTracking */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C0F2C9D7EE90079BF57 /* extension */,
+				F63A0C052C9C4E9E0079BF57 /* Router */,
+				F63A0C022C9C4E6E0079BF57 /* Presenter */,
+				F63A0BFF2C9C4E2B0079BF57 /* Interactor */,
+				F63A0BFC2C9C4E050079BF57 /* View */,
+				F63A0BF92C9C4DA40079BF57 /* Entity */,
+				F63A0BCE2C9C4BA90079BF57 /* RadioSessionTrackingApp.swift */,
+				F63A0BD02C9C4BA90079BF57 /* ContentView.swift */,
+				F63A0BD22C9C4BAA0079BF57 /* Assets.xcassets */,
+				F63A0BD42C9C4BAA0079BF57 /* RadioSessionTracking.entitlements */,
+				F63A0BD52C9C4BAA0079BF57 /* Preview Content */,
+			);
+			path = RadioSessionTracking;
+			sourceTree = "<group>";
+		};
+		F63A0BD52C9C4BAA0079BF57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0BD62C9C4BAA0079BF57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F63A0BDF2C9C4BAA0079BF57 /* RadioSessionTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0BE02C9C4BAA0079BF57 /* RadioSessionTrackingTests.swift */,
+				F63A0C132C9D86BA0079BF57 /* TimelineViewTests.swift */,
+				F63A0C152C9D87480079BF57 /* RadioStreamingSessionPresenterTests.swift */,
+				F63A0C192C9D87C90079BF57 /* RadioStreamingSessionInteractorTests.swift */,
+				F63A0C1B2C9D88040079BF57 /* RadioStreamingSessionRouterTests.swift */,
+			);
+			path = RadioSessionTrackingTests;
+			sourceTree = "<group>";
+		};
+		F63A0BE92C9C4BAA0079BF57 /* RadioSessionTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0BEA2C9C4BAA0079BF57 /* RadioSessionTrackingUITests.swift */,
+				F63A0BEC2C9C4BAA0079BF57 /* RadioSessionTrackingUITestsLaunchTests.swift */,
+			);
+			path = RadioSessionTrackingUITests;
+			sourceTree = "<group>";
+		};
+		F63A0BF92C9C4DA40079BF57 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0BFA2C9C4DC50079BF57 /* RadioSession.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F63A0BFC2C9C4E050079BF57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C0B2C9C4F220079BF57 /* Add Session */,
+				F63A0C082C9C4EEA0079BF57 /* Timeline */,
+				F63A0BFD2C9C4E120079BF57 /* RadioStreamingSessionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F63A0BFF2C9C4E2B0079BF57 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C002C9C4E4C0079BF57 /* RadioStreamingSessionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F63A0C022C9C4E6E0079BF57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C032C9C4E890079BF57 /* RadioStreamingSessionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F63A0C052C9C4E9E0079BF57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C062C9C4EBC0079BF57 /* RadioStreamingSessionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F63A0C082C9C4EEA0079BF57 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C092C9C4F070079BF57 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		F63A0C0B2C9C4F220079BF57 /* Add Session */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C0C2C9C4F370079BF57 /* AddSessionView.swift */,
+			);
+			path = "Add Session";
+			sourceTree = "<group>";
+		};
+		F63A0C0F2C9D7EE90079BF57 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F63A0C102C9D7F320079BF57 /* DateExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63A0BCA2C9C4BA90079BF57 /* RadioSessionTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63A0BF02C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTracking" */;
+			buildPhases = (
+				F63A0BC72C9C4BA90079BF57 /* Sources */,
+				F63A0BC82C9C4BA90079BF57 /* Frameworks */,
+				F63A0BC92C9C4BA90079BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioSessionTracking;
+			productName = RadioSessionTracking;
+			productReference = F63A0BCB2C9C4BA90079BF57 /* RadioSessionTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63A0BDB2C9C4BAA0079BF57 /* RadioSessionTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63A0BF32C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTrackingTests" */;
+			buildPhases = (
+				F63A0BD82C9C4BAA0079BF57 /* Sources */,
+				F63A0BD92C9C4BAA0079BF57 /* Frameworks */,
+				F63A0BDA2C9C4BAA0079BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63A0BDE2C9C4BAA0079BF57 /* PBXTargetDependency */,
+			);
+			name = RadioSessionTrackingTests;
+			productName = RadioSessionTrackingTests;
+			productReference = F63A0BDC2C9C4BAA0079BF57 /* RadioSessionTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F63A0BE52C9C4BAA0079BF57 /* RadioSessionTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63A0BF62C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTrackingUITests" */;
+			buildPhases = (
+				F63A0BE22C9C4BAA0079BF57 /* Sources */,
+				F63A0BE32C9C4BAA0079BF57 /* Frameworks */,
+				F63A0BE42C9C4BAA0079BF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63A0BE82C9C4BAA0079BF57 /* PBXTargetDependency */,
+			);
+			name = RadioSessionTrackingUITests;
+			productName = RadioSessionTrackingUITests;
+			productReference = F63A0BE62C9C4BAA0079BF57 /* RadioSessionTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63A0BC32C9C4BA90079BF57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F63A0BCA2C9C4BA90079BF57 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F63A0BDB2C9C4BAA0079BF57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F63A0BCA2C9C4BA90079BF57;
+					};
+					F63A0BE52C9C4BAA0079BF57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F63A0BCA2C9C4BA90079BF57;
+					};
+				};
+			};
+			buildConfigurationList = F63A0BC62C9C4BA90079BF57 /* Build configuration list for PBXProject "RadioSessionTracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63A0BC22C9C4BA90079BF57;
+			productRefGroup = F63A0BCC2C9C4BA90079BF57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63A0BCA2C9C4BA90079BF57 /* RadioSessionTracking */,
+				F63A0BDB2C9C4BAA0079BF57 /* RadioSessionTrackingTests */,
+				F63A0BE52C9C4BAA0079BF57 /* RadioSessionTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63A0BC92C9C4BA90079BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A0BD72C9C4BAA0079BF57 /* Preview Assets.xcassets in Resources */,
+				F63A0BD32C9C4BAA0079BF57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BDA2C9C4BAA0079BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BE42C9C4BAA0079BF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63A0BC72C9C4BA90079BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A0C012C9C4E4C0079BF57 /* RadioStreamingSessionInteractor.swift in Sources */,
+				F63A0C112C9D7F320079BF57 /* DateExtension.swift in Sources */,
+				F63A0BFB2C9C4DC50079BF57 /* RadioSession.swift in Sources */,
+				F63A0C042C9C4E890079BF57 /* RadioStreamingSessionPresenter.swift in Sources */,
+				F63A0BD12C9C4BA90079BF57 /* ContentView.swift in Sources */,
+				F63A0BFE2C9C4E120079BF57 /* RadioStreamingSessionView.swift in Sources */,
+				F63A0C072C9C4EBC0079BF57 /* RadioStreamingSessionRouter.swift in Sources */,
+				F63A0BCF2C9C4BA90079BF57 /* RadioSessionTrackingApp.swift in Sources */,
+				F63A0C0D2C9C4F370079BF57 /* AddSessionView.swift in Sources */,
+				F63A0C0A2C9C4F070079BF57 /* TimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BD82C9C4BAA0079BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A0C1A2C9D87C90079BF57 /* RadioStreamingSessionInteractorTests.swift in Sources */,
+				F63A0BE12C9C4BAA0079BF57 /* RadioSessionTrackingTests.swift in Sources */,
+				F63A0C1C2C9D88040079BF57 /* RadioStreamingSessionRouterTests.swift in Sources */,
+				F63A0C162C9D87480079BF57 /* RadioStreamingSessionPresenterTests.swift in Sources */,
+				F63A0C142C9D86BA0079BF57 /* TimelineViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63A0BE22C9C4BAA0079BF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A0BED2C9C4BAA0079BF57 /* RadioSessionTrackingUITestsLaunchTests.swift in Sources */,
+				F63A0BEB2C9C4BAA0079BF57 /* RadioSessionTrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63A0BDE2C9C4BAA0079BF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63A0BCA2C9C4BA90079BF57 /* RadioSessionTracking */;
+			targetProxy = F63A0BDD2C9C4BAA0079BF57 /* PBXContainerItemProxy */;
+		};
+		F63A0BE82C9C4BAA0079BF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63A0BCA2C9C4BA90079BF57 /* RadioSessionTracking */;
+			targetProxy = F63A0BE72C9C4BAA0079BF57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F63A0BEE2C9C4BAA0079BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F63A0BEF2C9C4BAA0079BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F63A0BF12C9C4BAA0079BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioSessionTracking/RadioSessionTracking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioSessionTracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63A0BF22C9C4BAA0079BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioSessionTracking/RadioSessionTracking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioSessionTracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F63A0BF42C9C4BAA0079BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioSessionTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioSessionTracking";
+			};
+			name = Debug;
+		};
+		F63A0BF52C9C4BAA0079BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioSessionTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioSessionTracking";
+			};
+			name = Release;
+		};
+		F63A0BF72C9C4BAA0079BF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioSessionTracking;
+			};
+			name = Debug;
+		};
+		F63A0BF82C9C4BAA0079BF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vibha.RadioSessionTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioSessionTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63A0BC62C9C4BA90079BF57 /* Build configuration list for PBXProject "RadioSessionTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63A0BEE2C9C4BAA0079BF57 /* Debug */,
+				F63A0BEF2C9C4BAA0079BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63A0BF02C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63A0BF12C9C4BAA0079BF57 /* Debug */,
+				F63A0BF22C9C4BAA0079BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63A0BF32C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63A0BF42C9C4BAA0079BF57 /* Debug */,
+				F63A0BF52C9C4BAA0079BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63A0BF62C9C4BAA0079BF57 /* Build configuration list for PBXNativeTarget "RadioSessionTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63A0BF72C9C4BAA0079BF57 /* Debug */,
+				F63A0BF82C9C4BAA0079BF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63A0BC32C9C4BA90079BF57 /* Project object */;
+}
